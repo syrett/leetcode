@@ -6,9 +6,6 @@ type ListNode struct {
 }
 
 func removeElements(head *ListNode, val int) *ListNode {
-	if head == nil {
-		return head
-	}
 	tmpNode := &ListNode{Next: head}
 
 	for tmp := tmpNode; tmp.Next != nil; {
@@ -18,5 +15,5 @@ func removeElements(head *ListNode, val int) *ListNode {
 			tmp = tmp.Next
 		}
 	}
-	return head
+	return tmpNode.Next
 }
