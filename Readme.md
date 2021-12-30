@@ -16,3 +16,6 @@
 + [24: 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 + [19: 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 + [面试题_02.07: 链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/)
+
+# 哈希
++ [242: 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
