@@ -8,7 +8,7 @@ func canConstruct(ransomNote string, magazine string) bool {
 		if v, ok := magazineCharMap[ransomNote[i]]; !ok || v < 1 {
 			return false
 		}
-		magazineCharMap[ransomNote[i]]--		
+		magazineCharMap[ransomNote[i]]--
 	}
 
 	return true
